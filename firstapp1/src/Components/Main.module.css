@@ -1,0 +1,89 @@
+.Input_div {
+    width: 100%;
+    /* height: 20px; */
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.Input_div>input {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.Input_div>button {
+    margin-left: 10px;
+    width: 25%;
+    background-color: rgb(132, 8, 214);
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+transition: 0.3s ease-in-out;
+}
+.Input_div>button:hover{
+background-color: rgb(206, 14, 244);
+}
+.List_div{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.RenderItem_div{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 35px;
+    margin: 5px;
+    display: flex;
+    /* border-radius: 5px; */
+}
+.div_data{
+background-color: rgb(237, 252, 255);
+width: 60%;
+border-radius: 7px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+text-align: center;
+font-size: 20px;
+}
+.div_button{
+/* background-color: rgb(127, 131, 255); */
+width: 40%;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+
+}
+.btn{
+    display: block;
+    width: 45%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+transition: 0.3s ease-in-out;
+}
+.div_button>:nth-child(1){
+background-color: aquamarine;
+}
+.div_button>:nth-child(2){
+background-color: rgb(202, 0, 0);
+
+}
+.div_button>:nth-child(1):hover{
+    background-color: rgb(0, 152, 102);
+    }
+.div_button>:nth-child(2):hover{
+    background-color: rgb(255, 48, 48);
+    
+    }
